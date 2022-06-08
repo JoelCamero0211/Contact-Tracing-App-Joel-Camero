@@ -1,0 +1,11 @@
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\bin\Debug\Contact_Tracing_App___Joel_Jonathan_V.Camero.exe.config
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\bin\Debug\Contact_Tracing_App___Joel_Jonathan_V.Camero.exe
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\bin\Debug\Contact_Tracing_App___Joel_Jonathan_V.Camero.pdb
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact Tracing App - Joel Jonathan V. Camero.csproj.AssemblyReference.cache
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact Tracing App - Joel Jonathan V. Camero.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact_Tracing_App___Joel_Jonathan_V.Camero.ContactTracingApp.resources
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact_Tracing_App___Joel_Jonathan_V.Camero.Properties.Resources.resources
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact Tracing App - Joel Jonathan V. Camero.csproj.GenerateResource.cache
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact Tracing App - Joel Jonathan V. Camero.csproj.CoreCompileInputs.cache
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact_Tracing_App___Joel_Jonathan_V.Camero.exe
+C:\Users\Jr\source\repos\Contact Tracing App - Joel Jonathan V. Camero\Contact Tracing App - Joel Jonathan V. Camero\obj\Debug\Contact_Tracing_App___Joel_Jonathan_V.Camero.pdb

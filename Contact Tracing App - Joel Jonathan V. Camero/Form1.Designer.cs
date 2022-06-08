@@ -47,7 +47,7 @@
             this.labelCurrentInfo = new System.Windows.Forms.Label();
             this.textBoxTemperature = new System.Windows.Forms.TextBox();
             this.labelTemperature = new System.Windows.Forms.Label();
-            this.buttonSubmit = new System.Windows.Forms.Button();
+            this.buttonSubmitForm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelName
@@ -76,7 +76,7 @@
             this.headerTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerTitleLabel.Location = new System.Drawing.Point(373, 20);
             this.headerTitleLabel.Name = "headerTitleLabel";
-            this.headerTitleLabel.Size = new System.Drawing.Size(272, 39);
+            this.headerTitleLabel.Size = new System.Drawing.Size(263, 38);
             this.headerTitleLabel.TabIndex = 2;
             this.headerTitleLabel.Text = "Contact Tracing";
             // 
@@ -170,7 +170,7 @@
             // textBoxDate
             // 
             this.textBoxDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxDate.Location = new System.Drawing.Point(666, 235);
+            this.textBoxDate.Location = new System.Drawing.Point(668, 193);
             this.textBoxDate.Name = "textBoxDate";
             this.textBoxDate.Size = new System.Drawing.Size(278, 22);
             this.textBoxDate.TabIndex = 19;
@@ -180,7 +180,7 @@
             this.labelDate.AutoSize = true;
             this.labelDate.BackColor = System.Drawing.SystemColors.Control;
             this.labelDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelDate.Location = new System.Drawing.Point(536, 234);
+            this.labelDate.Location = new System.Drawing.Point(536, 194);
             this.labelDate.Name = "labelDate";
             this.labelDate.Size = new System.Drawing.Size(50, 20);
             this.labelDate.TabIndex = 18;
@@ -189,7 +189,7 @@
             // textBoxTime
             // 
             this.textBoxTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxTime.Location = new System.Drawing.Point(666, 194);
+            this.textBoxTime.Location = new System.Drawing.Point(668, 156);
             this.textBoxTime.Name = "textBoxTime";
             this.textBoxTime.Size = new System.Drawing.Size(278, 22);
             this.textBoxTime.TabIndex = 17;
@@ -199,7 +199,7 @@
             this.labelTime.AutoSize = true;
             this.labelTime.BackColor = System.Drawing.SystemColors.Control;
             this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelTime.Location = new System.Drawing.Point(536, 193);
+            this.labelTime.Location = new System.Drawing.Point(538, 157);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(51, 20);
             this.labelTime.TabIndex = 16;
@@ -219,7 +219,7 @@
             // textBoxTemperature
             // 
             this.textBoxTemperature.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxTemperature.Location = new System.Drawing.Point(666, 157);
+            this.textBoxTemperature.Location = new System.Drawing.Point(668, 232);
             this.textBoxTemperature.Name = "textBoxTemperature";
             this.textBoxTemperature.Size = new System.Drawing.Size(278, 22);
             this.textBoxTemperature.TabIndex = 14;
@@ -229,21 +229,22 @@
             this.labelTemperature.AutoSize = true;
             this.labelTemperature.BackColor = System.Drawing.SystemColors.Control;
             this.labelTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelTemperature.Location = new System.Drawing.Point(536, 156);
+            this.labelTemperature.Location = new System.Drawing.Point(536, 237);
             this.labelTemperature.Name = "labelTemperature";
             this.labelTemperature.Size = new System.Drawing.Size(109, 20);
             this.labelTemperature.TabIndex = 13;
             this.labelTemperature.Text = "Temperature:";
             // 
-            // buttonSubmit
+            // buttonSubmitForm
             // 
-            this.buttonSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSubmit.Location = new System.Drawing.Point(791, 325);
-            this.buttonSubmit.Name = "buttonSubmit";
-            this.buttonSubmit.Size = new System.Drawing.Size(117, 30);
-            this.buttonSubmit.TabIndex = 20;
-            this.buttonSubmit.Text = "Submit form";
-            this.buttonSubmit.UseVisualStyleBackColor = true;
+            this.buttonSubmitForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSubmitForm.Location = new System.Drawing.Point(791, 325);
+            this.buttonSubmitForm.Name = "buttonSubmitForm";
+            this.buttonSubmitForm.Size = new System.Drawing.Size(117, 30);
+            this.buttonSubmitForm.TabIndex = 20;
+            this.buttonSubmitForm.Text = "Submit Info";
+            this.buttonSubmitForm.UseVisualStyleBackColor = true;
+            this.buttonSubmitForm.Click += new System.EventHandler(this.buttonSubmit_Click);
             // 
             // ContactTracingApp
             // 
@@ -251,7 +252,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1040, 438);
-            this.Controls.Add(this.buttonSubmit);
+            this.Controls.Add(this.buttonSubmitForm);
             this.Controls.Add(this.textBoxDate);
             this.Controls.Add(this.labelDate);
             this.Controls.Add(this.textBoxTime);
@@ -299,7 +300,7 @@
         private System.Windows.Forms.Label labelCurrentInfo;
         private System.Windows.Forms.TextBox textBoxTemperature;
         private System.Windows.Forms.Label labelTemperature;
-        private System.Windows.Forms.Button buttonSubmit;
+        private System.Windows.Forms.Button buttonSubmitForm;
     }
 }
 
