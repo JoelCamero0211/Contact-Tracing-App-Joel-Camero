@@ -45,9 +45,10 @@
             this.textBoxTime = new System.Windows.Forms.TextBox();
             this.labelTime = new System.Windows.Forms.Label();
             this.labelSafetyInfo = new System.Windows.Forms.Label();
-            this.textBoxTemperature = new System.Windows.Forms.TextBox();
+            this.textBoxTemprtr = new System.Windows.Forms.TextBox();
             this.labelTemperature = new System.Windows.Forms.Label();
             this.buttonSubmitForm = new System.Windows.Forms.Button();
+            this.buttonAddMoreInf = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelName
@@ -216,13 +217,13 @@
             this.labelSafetyInfo.TabIndex = 15;
             this.labelSafetyInfo.Text = "Safety Information";
             // 
-            // textBoxTemperature
+            // textBoxTemprtr
             // 
-            this.textBoxTemperature.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxTemperature.Location = new System.Drawing.Point(668, 232);
-            this.textBoxTemperature.Name = "textBoxTemperature";
-            this.textBoxTemperature.Size = new System.Drawing.Size(278, 22);
-            this.textBoxTemperature.TabIndex = 14;
+            this.textBoxTemprtr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBoxTemprtr.Location = new System.Drawing.Point(668, 232);
+            this.textBoxTemprtr.Name = "textBoxTemprtr";
+            this.textBoxTemprtr.Size = new System.Drawing.Size(278, 22);
+            this.textBoxTemprtr.TabIndex = 14;
             // 
             // labelTemperature
             // 
@@ -240,25 +241,37 @@
             this.buttonSubmitForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSubmitForm.Location = new System.Drawing.Point(791, 325);
             this.buttonSubmitForm.Name = "buttonSubmitForm";
-            this.buttonSubmitForm.Size = new System.Drawing.Size(117, 30);
+            this.buttonSubmitForm.Size = new System.Drawing.Size(143, 30);
             this.buttonSubmitForm.TabIndex = 20;
-            this.buttonSubmitForm.Text = "Submit Info";
+            this.buttonSubmitForm.Text = "Submit Form";
             this.buttonSubmitForm.UseVisualStyleBackColor = true;
             this.buttonSubmitForm.Click += new System.EventHandler(this.buttonSubmit_Click);
+            // 
+            // buttonAddMoreInf
+            // 
+            this.buttonAddMoreInf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAddMoreInf.Location = new System.Drawing.Point(791, 370);
+            this.buttonAddMoreInf.Name = "buttonAddMoreInf";
+            this.buttonAddMoreInf.Size = new System.Drawing.Size(143, 47);
+            this.buttonAddMoreInf.TabIndex = 21;
+            this.buttonAddMoreInf.Text = "Add another Person\'s Info";
+            this.buttonAddMoreInf.UseVisualStyleBackColor = true;
+            this.buttonAddMoreInf.Click += new System.EventHandler(this.buttonAddPeople_Click);
             // 
             // ContactTracingApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1040, 438);
+            this.ClientSize = new System.Drawing.Size(1040, 475);
+            this.Controls.Add(this.buttonAddMoreInf);
             this.Controls.Add(this.buttonSubmitForm);
             this.Controls.Add(this.textBoxDate);
             this.Controls.Add(this.labelDate);
             this.Controls.Add(this.textBoxTime);
             this.Controls.Add(this.labelTime);
             this.Controls.Add(this.labelSafetyInfo);
-            this.Controls.Add(this.textBoxTemperature);
+            this.Controls.Add(this.textBoxTemprtr);
             this.Controls.Add(this.labelTemperature);
             this.Controls.Add(this.labelEmail);
             this.Controls.Add(this.labelPhoneNum);
@@ -298,9 +311,10 @@
         private System.Windows.Forms.TextBox textBoxTime;
         private System.Windows.Forms.Label labelTime;
         private System.Windows.Forms.Label labelSafetyInfo;
-        private System.Windows.Forms.TextBox textBoxTemperature;
+        private System.Windows.Forms.TextBox textBoxTemprtr;
         private System.Windows.Forms.Label labelTemperature;
         private System.Windows.Forms.Button buttonSubmitForm;
+        private System.Windows.Forms.Button buttonAddMoreInf;
     }
 }
 

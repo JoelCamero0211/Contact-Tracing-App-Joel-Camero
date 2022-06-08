@@ -29,10 +29,24 @@ namespace Contact_Tracing_App___Joel_Jonathan_V.Camero
             file.WriteLine("Email Address: " + textBoxEmail.Text);
             file.WriteLine("Time: " + textBoxTime.Text);
             file.WriteLine("Date: " + textBoxDate.Text);
-            file.WriteLine("Temperature: " + textBoxTemperature.Text);
+            file.WriteLine("Temperature: " + textBoxTemprtr.Text);
             file.WriteLine("");
             file.WriteLine("-------------------------------------------------------------------------------------"); //separator of info of people
-            file.Close();   
+            file.Close();
+
+            MessageBox.Show("Thank you for answering the Contact Tracing Form. Your safety is our priority!");
+        }
+
+        private void buttonAddPeople_Click(object sender, EventArgs e)
+        {
+            textBoxName.Clear();
+            textBoxAge.Clear();
+            textBoxAddress.Clear();
+            textBoxPhoneNum.Clear();
+            textBoxEmail.Clear();
+            textBoxTime.Clear();
+            textBoxDate.Clear();
+            textBoxTemprtr.Clear();
         }
     }
 }
