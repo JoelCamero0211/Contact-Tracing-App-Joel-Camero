@@ -21,15 +21,15 @@ namespace Contact_Tracing_App___Joel_Jonathan_V.Camero
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"C:\Users\Jr\Desktop\Contact Tracing App\Contact Tracing Information.txt", true);
-            
-            file.WriteLine("Name: ");
-            file.WriteLine("Age: ");
-            file.WriteLine("Address: ");
-            file.WriteLine("Phone #: ");
-            file.WriteLine("Email Address: ");
-            file.WriteLine("Time: ");
-            file.WriteLine("Date: ");
-            file.WriteLine("Temperature: ");
+            file.WriteLine("");
+            file.WriteLine("Name: " + textBoxName.Text);
+            file.WriteLine("Age: " + textBoxAge.Text);
+            file.WriteLine("Address: " + textBoxAddress.Text);
+            file.WriteLine("Phone #: " + textBoxPhoneNum.Text);
+            file.WriteLine("Email Address: " + textBoxEmail.Text);
+            file.WriteLine("Time: " + textBoxTime.Text);
+            file.WriteLine("Date: " + textBoxDate.Text);
+            file.WriteLine("Temperature: " + textBoxTemperature.Text);
             file.WriteLine("");
             file.WriteLine("-------------------------------------------------------------------------------------"); //separator of info of people
             file.Close();   
