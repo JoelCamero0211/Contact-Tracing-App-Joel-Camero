@@ -44,7 +44,7 @@
             this.labelDate = new System.Windows.Forms.Label();
             this.textBoxTime = new System.Windows.Forms.TextBox();
             this.labelTime = new System.Windows.Forms.Label();
-            this.labelCurrentInfo = new System.Windows.Forms.Label();
+            this.labelSafetyInfo = new System.Windows.Forms.Label();
             this.textBoxTemperature = new System.Windows.Forms.TextBox();
             this.labelTemperature = new System.Windows.Forms.Label();
             this.buttonSubmitForm = new System.Windows.Forms.Button();
@@ -205,16 +205,16 @@
             this.labelTime.TabIndex = 16;
             this.labelTime.Text = "Time:";
             // 
-            // labelCurrentInfo
+            // labelSafetyInfo
             // 
-            this.labelCurrentInfo.AutoSize = true;
-            this.labelCurrentInfo.BackColor = System.Drawing.SystemColors.Control;
-            this.labelCurrentInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCurrentInfo.Location = new System.Drawing.Point(535, 115);
-            this.labelCurrentInfo.Name = "labelCurrentInfo";
-            this.labelCurrentInfo.Size = new System.Drawing.Size(197, 25);
-            this.labelCurrentInfo.TabIndex = 15;
-            this.labelCurrentInfo.Text = "Current Information";
+            this.labelSafetyInfo.AutoSize = true;
+            this.labelSafetyInfo.BackColor = System.Drawing.SystemColors.Control;
+            this.labelSafetyInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSafetyInfo.Location = new System.Drawing.Point(535, 115);
+            this.labelSafetyInfo.Name = "labelSafetyInfo";
+            this.labelSafetyInfo.Size = new System.Drawing.Size(187, 25);
+            this.labelSafetyInfo.TabIndex = 15;
+            this.labelSafetyInfo.Text = "Safety Information";
             // 
             // textBoxTemperature
             // 
@@ -257,7 +257,7 @@
             this.Controls.Add(this.labelDate);
             this.Controls.Add(this.textBoxTime);
             this.Controls.Add(this.labelTime);
-            this.Controls.Add(this.labelCurrentInfo);
+            this.Controls.Add(this.labelSafetyInfo);
             this.Controls.Add(this.textBoxTemperature);
             this.Controls.Add(this.labelTemperature);
             this.Controls.Add(this.labelEmail);
@@ -297,7 +297,7 @@
         private System.Windows.Forms.Label labelDate;
         private System.Windows.Forms.TextBox textBoxTime;
         private System.Windows.Forms.Label labelTime;
-        private System.Windows.Forms.Label labelCurrentInfo;
+        private System.Windows.Forms.Label labelSafetyInfo;
         private System.Windows.Forms.TextBox textBoxTemperature;
         private System.Windows.Forms.Label labelTemperature;
         private System.Windows.Forms.Button buttonSubmitForm;
