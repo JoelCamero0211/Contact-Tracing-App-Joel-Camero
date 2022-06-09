@@ -50,6 +50,7 @@
             this.buttonSubmitForm = new System.Windows.Forms.Button();
             this.buttonAddMoreInf = new System.Windows.Forms.Button();
             this.pictureBoxPurpose = new System.Windows.Forms.PictureBox();
+            this.labelPurpose = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPurpose)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.labelName.AutoSize = true;
             this.labelName.BackColor = System.Drawing.SystemColors.Control;
             this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelName.Location = new System.Drawing.Point(54, 243);
+            this.labelName.Location = new System.Drawing.Point(61, 275);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(58, 20);
             this.labelName.TabIndex = 0;
@@ -67,7 +68,7 @@
             // textBoxName
             // 
             this.textBoxName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxName.Location = new System.Drawing.Point(161, 244);
+            this.textBoxName.Location = new System.Drawing.Point(168, 276);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(278, 22);
             this.textBoxName.TabIndex = 1;
@@ -77,7 +78,7 @@
             this.headerTitleLabel.AutoSize = true;
             this.headerTitleLabel.BackColor = System.Drawing.SystemColors.Control;
             this.headerTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.headerTitleLabel.Location = new System.Drawing.Point(328, 32);
+            this.headerTitleLabel.Location = new System.Drawing.Point(333, 9);
             this.headerTitleLabel.Name = "headerTitleLabel";
             this.headerTitleLabel.Size = new System.Drawing.Size(353, 38);
             this.headerTitleLabel.TabIndex = 2;
@@ -88,7 +89,7 @@
             this.labelPersonalInfo.AutoSize = true;
             this.labelPersonalInfo.BackColor = System.Drawing.SystemColors.Control;
             this.labelPersonalInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPersonalInfo.Location = new System.Drawing.Point(53, 202);
+            this.labelPersonalInfo.Location = new System.Drawing.Point(60, 234);
             this.labelPersonalInfo.Name = "labelPersonalInfo";
             this.labelPersonalInfo.Size = new System.Drawing.Size(210, 25);
             this.labelPersonalInfo.TabIndex = 3;
@@ -99,7 +100,7 @@
             this.labelAge.AutoSize = true;
             this.labelAge.BackColor = System.Drawing.SystemColors.Control;
             this.labelAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelAge.Location = new System.Drawing.Point(54, 280);
+            this.labelAge.Location = new System.Drawing.Point(61, 312);
             this.labelAge.Name = "labelAge";
             this.labelAge.Size = new System.Drawing.Size(43, 20);
             this.labelAge.TabIndex = 4;
@@ -108,7 +109,7 @@
             // textBoxAge
             // 
             this.textBoxAge.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxAge.Location = new System.Drawing.Point(161, 281);
+            this.textBoxAge.Location = new System.Drawing.Point(168, 313);
             this.textBoxAge.Name = "textBoxAge";
             this.textBoxAge.Size = new System.Drawing.Size(278, 22);
             this.textBoxAge.TabIndex = 5;
@@ -118,7 +119,7 @@
             this.labelAddress.AutoSize = true;
             this.labelAddress.BackColor = System.Drawing.SystemColors.Control;
             this.labelAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelAddress.Location = new System.Drawing.Point(54, 321);
+            this.labelAddress.Location = new System.Drawing.Point(61, 353);
             this.labelAddress.Name = "labelAddress";
             this.labelAddress.Size = new System.Drawing.Size(76, 20);
             this.labelAddress.TabIndex = 6;
@@ -127,7 +128,7 @@
             // textBoxPhoneNum
             // 
             this.textBoxPhoneNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxPhoneNum.Location = new System.Drawing.Point(161, 359);
+            this.textBoxPhoneNum.Location = new System.Drawing.Point(168, 391);
             this.textBoxPhoneNum.Name = "textBoxPhoneNum";
             this.textBoxPhoneNum.Size = new System.Drawing.Size(278, 22);
             this.textBoxPhoneNum.TabIndex = 8;
@@ -135,7 +136,7 @@
             // textBoxAddress
             // 
             this.textBoxAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxAddress.Location = new System.Drawing.Point(161, 322);
+            this.textBoxAddress.Location = new System.Drawing.Point(168, 354);
             this.textBoxAddress.Name = "textBoxAddress";
             this.textBoxAddress.Size = new System.Drawing.Size(278, 22);
             this.textBoxAddress.TabIndex = 7;
@@ -143,7 +144,7 @@
             // textBoxEmail
             // 
             this.textBoxEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxEmail.Location = new System.Drawing.Point(161, 396);
+            this.textBoxEmail.Location = new System.Drawing.Point(168, 428);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(278, 22);
             this.textBoxEmail.TabIndex = 10;
@@ -153,7 +154,7 @@
             this.labelPhoneNum.AutoSize = true;
             this.labelPhoneNum.BackColor = System.Drawing.SystemColors.Control;
             this.labelPhoneNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelPhoneNum.Location = new System.Drawing.Point(54, 361);
+            this.labelPhoneNum.Location = new System.Drawing.Point(61, 393);
             this.labelPhoneNum.Name = "labelPhoneNum";
             this.labelPhoneNum.Size = new System.Drawing.Size(75, 20);
             this.labelPhoneNum.TabIndex = 11;
@@ -164,7 +165,7 @@
             this.labelEmail.AutoSize = true;
             this.labelEmail.BackColor = System.Drawing.SystemColors.Control;
             this.labelEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelEmail.Location = new System.Drawing.Point(54, 398);
+            this.labelEmail.Location = new System.Drawing.Point(61, 430);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(56, 20);
             this.labelEmail.TabIndex = 12;
@@ -173,7 +174,7 @@
             // textBoxDate
             // 
             this.textBoxDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxDate.Location = new System.Drawing.Point(676, 280);
+            this.textBoxDate.Location = new System.Drawing.Point(683, 312);
             this.textBoxDate.Name = "textBoxDate";
             this.textBoxDate.Size = new System.Drawing.Size(278, 22);
             this.textBoxDate.TabIndex = 19;
@@ -183,7 +184,7 @@
             this.labelDate.AutoSize = true;
             this.labelDate.BackColor = System.Drawing.SystemColors.Control;
             this.labelDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelDate.Location = new System.Drawing.Point(544, 281);
+            this.labelDate.Location = new System.Drawing.Point(551, 313);
             this.labelDate.Name = "labelDate";
             this.labelDate.Size = new System.Drawing.Size(50, 20);
             this.labelDate.TabIndex = 18;
@@ -192,7 +193,7 @@
             // textBoxTime
             // 
             this.textBoxTime.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxTime.Location = new System.Drawing.Point(676, 243);
+            this.textBoxTime.Location = new System.Drawing.Point(683, 275);
             this.textBoxTime.Name = "textBoxTime";
             this.textBoxTime.Size = new System.Drawing.Size(278, 22);
             this.textBoxTime.TabIndex = 17;
@@ -202,7 +203,7 @@
             this.labelTime.AutoSize = true;
             this.labelTime.BackColor = System.Drawing.SystemColors.Control;
             this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelTime.Location = new System.Drawing.Point(546, 244);
+            this.labelTime.Location = new System.Drawing.Point(553, 276);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(51, 20);
             this.labelTime.TabIndex = 16;
@@ -213,7 +214,7 @@
             this.labelSafetyInfo.AutoSize = true;
             this.labelSafetyInfo.BackColor = System.Drawing.SystemColors.Control;
             this.labelSafetyInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSafetyInfo.Location = new System.Drawing.Point(543, 202);
+            this.labelSafetyInfo.Location = new System.Drawing.Point(550, 234);
             this.labelSafetyInfo.Name = "labelSafetyInfo";
             this.labelSafetyInfo.Size = new System.Drawing.Size(187, 25);
             this.labelSafetyInfo.TabIndex = 15;
@@ -222,7 +223,7 @@
             // textBoxTemprtr
             // 
             this.textBoxTemprtr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxTemprtr.Location = new System.Drawing.Point(676, 319);
+            this.textBoxTemprtr.Location = new System.Drawing.Point(683, 351);
             this.textBoxTemprtr.Name = "textBoxTemprtr";
             this.textBoxTemprtr.Size = new System.Drawing.Size(278, 22);
             this.textBoxTemprtr.TabIndex = 14;
@@ -232,7 +233,7 @@
             this.labelTemperature.AutoSize = true;
             this.labelTemperature.BackColor = System.Drawing.SystemColors.Control;
             this.labelTemperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.labelTemperature.Location = new System.Drawing.Point(544, 324);
+            this.labelTemperature.Location = new System.Drawing.Point(551, 356);
             this.labelTemperature.Name = "labelTemperature";
             this.labelTemperature.Size = new System.Drawing.Size(109, 20);
             this.labelTemperature.TabIndex = 13;
@@ -241,7 +242,7 @@
             // buttonSubmitForm
             // 
             this.buttonSubmitForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSubmitForm.Location = new System.Drawing.Point(799, 412);
+            this.buttonSubmitForm.Location = new System.Drawing.Point(806, 444);
             this.buttonSubmitForm.Name = "buttonSubmitForm";
             this.buttonSubmitForm.Size = new System.Drawing.Size(143, 30);
             this.buttonSubmitForm.TabIndex = 20;
@@ -252,7 +253,7 @@
             // buttonAddMoreInf
             // 
             this.buttonAddMoreInf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAddMoreInf.Location = new System.Drawing.Point(799, 457);
+            this.buttonAddMoreInf.Location = new System.Drawing.Point(806, 489);
             this.buttonAddMoreInf.Name = "buttonAddMoreInf";
             this.buttonAddMoreInf.Size = new System.Drawing.Size(143, 47);
             this.buttonAddMoreInf.TabIndex = 21;
@@ -263,19 +264,31 @@
             // pictureBoxPurpose
             // 
             this.pictureBoxPurpose.Image = global::Contact_Tracing_App___Joel_Jonathan_V.Camero.Properties.Resources.purpose1;
-            this.pictureBoxPurpose.Location = new System.Drawing.Point(106, 90);
+            this.pictureBoxPurpose.Location = new System.Drawing.Point(106, 105);
             this.pictureBoxPurpose.Name = "pictureBoxPurpose";
             this.pictureBoxPurpose.Size = new System.Drawing.Size(809, 92);
             this.pictureBoxPurpose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxPurpose.TabIndex = 23;
             this.pictureBoxPurpose.TabStop = false;
             // 
+            // labelPurpose
+            // 
+            this.labelPurpose.AutoSize = true;
+            this.labelPurpose.BackColor = System.Drawing.SystemColors.Control;
+            this.labelPurpose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.labelPurpose.Location = new System.Drawing.Point(102, 82);
+            this.labelPurpose.Name = "labelPurpose";
+            this.labelPurpose.Size = new System.Drawing.Size(76, 20);
+            this.labelPurpose.TabIndex = 24;
+            this.labelPurpose.Text = "Purpose:";
+            // 
             // ContactTracingApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1040, 558);
+            this.ClientSize = new System.Drawing.Size(1040, 577);
+            this.Controls.Add(this.labelPurpose);
             this.Controls.Add(this.pictureBoxPurpose);
             this.Controls.Add(this.buttonAddMoreInf);
             this.Controls.Add(this.buttonSubmitForm);
@@ -330,6 +343,7 @@
         private System.Windows.Forms.Button buttonSubmitForm;
         private System.Windows.Forms.Button buttonAddMoreInf;
         private System.Windows.Forms.PictureBox pictureBoxPurpose;
+        private System.Windows.Forms.Label labelPurpose;
     }
 }
 
