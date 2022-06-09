@@ -31,6 +31,7 @@ namespace Contact_Tracing_App___Joel_Jonathan_V.Camero
             file.WriteLine("Address: " + textBoxAddress.Text);
             file.WriteLine("Phone #: " + textBoxPhoneNum.Text);
             file.WriteLine("Email Address: " + textBoxEmail.Text);
+            file.WriteLine("");
             file.WriteLine("Time: " + textBoxTime.Text);
             file.WriteLine("Date: " + textBoxDate.Text);
             file.WriteLine("Temperature: " + textBoxTemprtr.Text);

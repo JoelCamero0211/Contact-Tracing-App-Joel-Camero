@@ -72,13 +72,14 @@
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(278, 22);
             this.textBoxName.TabIndex = 1;
+            this.textBoxName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // headerTitleLabel
             // 
             this.headerTitleLabel.AutoSize = true;
             this.headerTitleLabel.BackColor = System.Drawing.SystemColors.Control;
             this.headerTitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.headerTitleLabel.Location = new System.Drawing.Point(333, 9);
+            this.headerTitleLabel.Location = new System.Drawing.Point(327, 32);
             this.headerTitleLabel.Name = "headerTitleLabel";
             this.headerTitleLabel.Size = new System.Drawing.Size(353, 38);
             this.headerTitleLabel.TabIndex = 2;
@@ -113,6 +114,7 @@
             this.textBoxAge.Name = "textBoxAge";
             this.textBoxAge.Size = new System.Drawing.Size(278, 22);
             this.textBoxAge.TabIndex = 5;
+            this.textBoxAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelAddress
             // 
@@ -132,6 +134,7 @@
             this.textBoxPhoneNum.Name = "textBoxPhoneNum";
             this.textBoxPhoneNum.Size = new System.Drawing.Size(278, 22);
             this.textBoxPhoneNum.TabIndex = 8;
+            this.textBoxPhoneNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxAddress
             // 
@@ -140,6 +143,7 @@
             this.textBoxAddress.Name = "textBoxAddress";
             this.textBoxAddress.Size = new System.Drawing.Size(278, 22);
             this.textBoxAddress.TabIndex = 7;
+            this.textBoxAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBoxEmail
             // 
@@ -148,6 +152,7 @@
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(278, 22);
             this.textBoxEmail.TabIndex = 10;
+            this.textBoxEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelPhoneNum
             // 
@@ -178,6 +183,7 @@
             this.textBoxDate.Name = "textBoxDate";
             this.textBoxDate.Size = new System.Drawing.Size(278, 22);
             this.textBoxDate.TabIndex = 19;
+            this.textBoxDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelDate
             // 
@@ -197,6 +203,7 @@
             this.textBoxTime.Name = "textBoxTime";
             this.textBoxTime.Size = new System.Drawing.Size(278, 22);
             this.textBoxTime.TabIndex = 17;
+            this.textBoxTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelTime
             // 
@@ -227,6 +234,7 @@
             this.textBoxTemprtr.Name = "textBoxTemprtr";
             this.textBoxTemprtr.Size = new System.Drawing.Size(278, 22);
             this.textBoxTemprtr.TabIndex = 14;
+            this.textBoxTemprtr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // labelTemperature
             // 
