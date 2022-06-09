@@ -16,12 +16,16 @@ namespace Contact_Tracing_App___Joel_Jonathan_V.Camero
         public ContactTracingApp()
         {
             InitializeComponent();
+            
+            
         }
-
+        public byte visitorNumb = 0;
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
+            
             StreamWriter file = new StreamWriter(@"C:\Users\Jr\Desktop\Contact Tracing App\Contact Tracing Information.txt", true);
             file.WriteLine("");
+            file.WriteLine("Visitor #" + ++visitorNumb);
             file.WriteLine("Name: " + textBoxName.Text);
             file.WriteLine("Age: " + textBoxAge.Text);
             file.WriteLine("Address: " + textBoxAddress.Text);
