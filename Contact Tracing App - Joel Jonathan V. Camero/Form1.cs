@@ -19,13 +19,13 @@ namespace Contact_Tracing_App___Joel_Jonathan_V.Camero
             
             
         }
-        public byte visitorNumb = 0;
+        public byte visitorNumb = 0; //For counting the visitors
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
-            
+            //Info that appears on the .txt file
             StreamWriter file = new StreamWriter(@"C:\Users\Jr\Desktop\Contact Tracing App\Contact Tracing Information.txt", true);
             file.WriteLine("");
-            file.WriteLine("Visitor #" + ++visitorNumb);
+            file.WriteLine("Visitor #" + ++visitorNumb); //For counting the visitors
             file.WriteLine("Name: " + textBoxName.Text);
             file.WriteLine("Age: " + textBoxAge.Text);
             file.WriteLine("Address: " + textBoxAddress.Text);
@@ -35,8 +35,9 @@ namespace Contact_Tracing_App___Joel_Jonathan_V.Camero
             file.WriteLine("Time: " + textBoxTime.Text);
             file.WriteLine("Date: " + textBoxDate.Text);
             file.WriteLine("Temperature: " + textBoxTemprtr.Text);
+            
             file.WriteLine("");
-            file.WriteLine("-------------------------------------------------------------------------------------"); //separator of info of people
+            file.WriteLine("-----------------------------------------------------------------------------------"); //separator of info of people
             file.Close();
 
             MessageBox.Show("Thank you for answering the Contact Tracing Form. Your safety is our priority!");
@@ -44,6 +45,7 @@ namespace Contact_Tracing_App___Joel_Jonathan_V.Camero
 
         private void buttonAddPeople_Click(object sender, EventArgs e)
         {
+            //Clearing the text boxes to add more people's info
             textBoxName.Clear();
             textBoxAge.Clear();
             textBoxAddress.Clear();
